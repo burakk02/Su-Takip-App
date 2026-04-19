@@ -25,7 +25,15 @@ Bu proje, kullanıcıların günlük su içme hedeflerini belirlemelerine ve gü
 ---
 
 📸 Ekran Görüntüleri
-<p align="center"> <img src="screenshots/1.png" width="30%" /> <img src="screenshots/2.png" width="30%" /> <img src="screenshots/3.png" width="30%" /> </p>
+<p align="center">
+<img src="screenshots/1.png" width="30%" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="screenshots/2.png" width="30%" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="screenshots/3.png" width="30%" />
+ &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="screenshots/4.png" width="30%" />
+</p>
 
 ## 📂 Klasör Yapısı (Özet)
 
