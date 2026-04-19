@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:su_takip/core/constants/app_colors/app_colors.dart';
@@ -18,7 +19,14 @@ class AddWaterButtonsWidget extends ConsumerWidget {
               amount: "200ml",
               icon: Icons.local_drink_outlined,
               label: "Küçük Bardak",
-              onTap: () {
+              onTap: () async {
+                // 1. Sesi Çal
+                final player = AudioPlayer();
+
+                // AssetSource, "assets/" klasöründen sonrasını arar.
+                // O yüzden 'assets/audio/drink.mp3' yerine sadece 'audio/drink.mp3' yazıyoruz.
+                await player.play(AssetSource('audio/drink.mp3'));
+
                 // ref.read -> Kuleyle iletişime geç
                 // .notifier -> Kuledeki "Yönetici" ile konuşmak istiyorum (çünkü matematik ondaydı)
                 // .addWater(200) -> Yöneticiye "suyu 200ml artır" emrini ver!
@@ -29,7 +37,13 @@ class AddWaterButtonsWidget extends ConsumerWidget {
               amount: "500ml",
               icon: Icons.water_drop_outlined,
               label: "Yarım Litre",
-              onTap: () {
+              onTap: () async {
+
+                final player = AudioPlayer();
+
+                // AssetSource, "assets/" klasöründen sonrasını arar.
+                // O yüzden 'assets/audio/drink.mp3' yerine sadece 'audio/drink.mp3' yazıyoruz.
+                await player.play(AssetSource('audio/drink.mp3'));
                 // 3. EMİR VER: 500ml ekle
                 ref.read(waterTrackingProvider.notifier).addWater(500);
               },
@@ -40,7 +54,12 @@ class AddWaterButtonsWidget extends ConsumerWidget {
         const SizedBox(height: 30),
 
         TextButton.icon(
-          onPressed: () {
+          onPressed: () async {
+
+            final player = AudioPlayer();
+
+            await player.play(AssetSource('audio/pour.mp3'));
+
             // Kuledeki yöneticiye "son işlemi geri al" emrini ver
             ref.read(waterTrackingProvider.notifier).undoLastAction();
           },
