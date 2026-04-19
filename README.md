@@ -41,11 +41,11 @@ lib/
 📸 Ekran Görüntüleri
 
 <p align="center">
-<img src="screenshots/1.png" width="23%" />
-&nbsp;&nbsp;
-<img src="screenshots/2.png" width="23%" />
-&nbsp;&nbsp;
-<img src="screenshots/3.png" width="23%" />
+  <img src="screenshots/1.png?v=2" width="23%" />
   &nbsp;&nbsp;
-<img src="screenshots/4.png" width="23%" />
+  <img src="screenshots/2.png?v=2" width="23%" />
+  &nbsp;&nbsp;
+  <img src="screenshots/3.png?v=2" width="23%" />
+  &nbsp;&nbsp;
+  <img src="screenshots/4.png?v=2" width="23%" />
 </p>
