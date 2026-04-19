@@ -32,12 +32,15 @@ lib/
 
 ## 📸 Ekran Görüntüleri
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d20e3b24-f360-4f39-81b0-25752946314d" width="30%" />
-  <img src="https://github.com/user-attachments/assets/18807bd4-5cab-4e20-b2ba-505cd41f9a75" width="30%" />
-  <img src="https://github.com/user-attachments/assets/1625ee88-9237-4a19-8b13-8f3ad6e9b5b5" width="30%" />
-</p>
+## 📸 Ekran Görüntüleri
 
+<p align="center">
+  <img src="screenshots/1.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/2.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/3.png" width="30%" />
+</p>
 
 
 
