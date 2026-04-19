@@ -32,8 +32,6 @@ lib/
 
 ## 📸 Ekran Görüntüleri
 
-## 📸 Ekran Görüntüleri
-
 <p align="center">
   <img src="screenshots/1.png" width="30%" />
   &nbsp;&nbsp;&nbsp;&nbsp;
