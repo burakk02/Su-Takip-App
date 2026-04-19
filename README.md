@@ -28,3 +28,15 @@ lib/
  ┃   ┣ providers/      # Riverpod iş mantığı (WaterTrackingNotifier)
  ┃   ┗ views/          # Kullanıcı arayüzü ve parçalanmış Widget'lar
  ┗ main.dart           # Uygulama başlangıç noktası
+
+
+## 📸 Ekran Görüntüleri
+<img width="412" height="867" alt="Uygulama_kullanımı" src="https://github.com/user-attachments/assets/d20e3b24-f360-4f39-81b0-25752946314d" />
+<img width="412" height="875" alt="Hedef_seçimi" src="https://github.com/user-attachments/assets/18807bd4-5cab-4e20-b2ba-505cd41f9a75" />
+<img width="410" height="873" alt="Uygulama_başlangıcı" src="https://github.com/user-attachments/assets/1625ee88-9237-4a19-8b13-8f3ad6e9b5b5" />
+
+
+
+
+
+
