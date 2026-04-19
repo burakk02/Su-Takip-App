@@ -24,8 +24,9 @@ Bu proje, kullanıcıların günlük su içme hedeflerini belirlemelerine ve gü
 
 ---
 
-📂 Klasör Yapısı (Özet)
+## 📂 Klasör Yapısı (Özet)
 
+```text
 lib/
  ┣ core/               # Renk paletleri, sabitler
  ┣ features/           # Özellik odaklı modüller
@@ -34,6 +35,7 @@ lib/
  ┃   ┣ providers/      # Riverpod iş mantığı
  ┃   ┗ views/          # Arayüz ve Widget'lar
  ┗ main.dart           # Başlangıç noktası
+```
 
 
 📸 Ekran Görüntüleri
