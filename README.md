@@ -24,29 +24,26 @@ Bu proje, kullanıcıların günlük su içme hedeflerini belirlemelerine ve gü
 
 ---
 
-📸 Ekran Görüntüleri
-<p align="center">
-  <img src="screenshots/1.png" width="45%" />
-  <img src="screenshots/2.png" width="45%" />
-</p>
+📂 Klasör Yapısı (Özet)
 
-<p align="center">
-  <img src="screenshots/3.png" width="45%" />
-  <img src="screenshots/4.png" width="45%" />
-</p>
-
-## 📂 Klasör Yapısı (Özet)
-
-```text
 lib/
- ┣ core/               # Renkler, sabitler
- ┃ ┗ constants/
- ┣ features/
+ ┣ core/               # Renk paletleri, sabitler
+ ┣ features/           # Özellik odaklı modüller
  ┃ ┗ water_tracking/
- ┃   ┣ models/
- ┃   ┣ providers/
- ┃   ┗ views/
- ┗ main.dart
+ ┃   ┣ models/         # Veri kalıpları
+ ┃   ┣ providers/      # Riverpod iş mantığı
+ ┃   ┗ views/          # Arayüz ve Widget'lar
+ ┗ main.dart           # Başlangıç noktası
 
 
+📸 Ekran Görüntüleri
 
+<p align="center">
+<img src="screenshots/1.png" width="45%" />
+&nbsp;&nbsp;
+<img src="screenshots/2.png" width="45%" />
+&nbsp;&nbsp;
+<img src="screenshots/3.png" width="45%" />
+  &nbsp;&nbsp;
+<img src="screenshots/4.png" width="45%" />
+</p>
