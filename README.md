@@ -1,16 +1,30 @@
-# su_takip
+# 💧 Su Takip - Cep Asistanı (Water Tracker App)
 
-A new Flutter project.
+Bu proje, kullanıcıların günlük su içme hedeflerini belirlemelerine ve gün içindeki tüketimlerini şık bir arayüzle takip etmelerine olanak tanıyan, modern bir Flutter mobil uygulamasıdır. 
 
-## Getting Started
+"Clean Code" prensipleri ve ölçeklenebilir bir mimari göz önünde bulundurularak geliştirilmiştir.
 
-This project is a starting point for a Flutter application.
+## 🚀 Öne Çıkan Özellikler
+* **Dinamik Hedef Belirleme:** Kullanıcılar kendi günlük su içme hedeflerini (Örn: 2.5L, 3.0L) belirleyebilir.
+* **Anlık Takip:** Eklenen her miktar (200ml, 500ml), akıcı animasyonlarla hem görsel termosta hem de yüzde (%) olarak anında güncellenir.
+* **Akıllı Geri Al (Undo) Sistemi:** Yanlışlıkla eklenen sular, LIFO (Stack) mantığıyla adım adım geri alınabilir.
+* **Duyarlı (Responsive) Tasarım:** FittedBox ve esnek widget'lar sayesinde farklı ekran boyutlarında kusursuz görünüm.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Kullanılan Teknolojiler ve Mimari
+Bu proje, modern Flutter geliştirme standartlarına uygun olarak tasarlanmıştır:
+* **Framework:** Flutter / Dart
+* **State Management (Durum Yönetimi):** [Riverpod](https://riverpod.dev/) (`ConsumerWidget`, `NotifierProvider`)
+* **Mimari Yapı:** Feature-First (Özellik Odaklı) klasörleme yapısı. İş mantığı (`providers`) ile arayüz (`views/widgets`) birbirinden tamamen izole edilmiştir.
+* **Veri Yönetimi:** `copyWith` metodu ile Immutable (Değişmez) veri modelleri kullanılarak güvenli state güncellemeleri sağlanmıştır.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Klasör Yapısı (Özet)
+```text
+lib/
+ ┣ core/               # Uygulamanın temel taşları (Renk paletleri, sabitler)
+ ┃ ┗ constants/
+ ┣ features/           # Özellik odaklı modüller
+ ┃ ┗ water_tracking/
+ ┃   ┣ models/         # Veri kalıpları (WaterGoalModel)
+ ┃   ┣ providers/      # Riverpod iş mantığı (WaterTrackingNotifier)
+ ┃   ┗ views/          # Kullanıcı arayüzü ve parçalanmış Widget'lar
+ ┗ main.dart           # Uygulama başlangıç noktası
